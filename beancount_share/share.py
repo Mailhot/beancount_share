@@ -61,7 +61,7 @@ def share(entries: Entries, unused_options_map, config_string="{}") -> Tuple[Ent
             entries,
             config,
             config.mark_name,
-            ("Income", "Expenses"),
+            ("Income", "Expenses", "Expenses"),
             PluginShareError,
         )
 
